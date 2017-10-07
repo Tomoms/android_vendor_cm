@@ -156,7 +156,6 @@ on boot
 service sysinit /system/bin/sysinit
     user root
     oneshot
-    disabled
 
 # bugreport is triggered by holding down volume down, volume up and power
 service bugreport /system/bin/dumpstate -d -p -B -z \
